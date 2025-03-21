@@ -1,0 +1,47 @@
+I want you to program a fully featured and visually appealing Killer Sudoku game based on https://krazydad.com/play/killer/. Here are the comprehensive requirements:
+
+## Core Requirements
+- Cross-platform functionality: Must run smoothly on iOS and Android smartphones, tablets, and all major web browsers
+- Responsive design that adapts to different screen sizes and orientations
+- Randomly generated, mathematically verified solvable puzzles
+- Three distinct difficulty levels (Easy, Medium, Hard) with clear progression in complexity
+- A flexible note-taking system allowing players to mark possible numbers in each cell.
+
+## Technical Specifications
+- Use a technology stack that enables true cross-platform development (consider React Native, Flutter, or Progressive Web App approach)
+- Implement efficient algorithms for puzzle generation and validation
+- Ensure offline functionality with local storage of game progress
+- Optimize for both touch and mouse/keyboard interactions
+- Implement proper state management for game saves and resuming play
+
+## Game Features
+- Timer with pause functionality
+- Undo/redo system with unlimited steps
+- Option to manually input puzzles or import from standard formats
+- Cage sums clearly displayed without cluttering the interface
+- Visual distinction using dotted lines between regular Sudoku constraints and Killer Sudoku cages
+
+## User Experience
+- Clean, minimalist UI with high contrast options
+- Customizable themes (including dark mode)
+- Accessibility features (adjustable font sizes, colorblind-friendly palette)
+- Smooth animations for cell selection, number placement, and completions
+- Haptic feedback for touch devices
+- Audio cues (optional and adjustable volume)
+- Achievement system to reward progress and skill development
+
+## Advanced Features
+- Daily challenge puzzles
+- Statistics tracking (win rates, average completion times by difficulty)
+- Social sharing of puzzles and achievements
+- Export completed puzzles as images or shareable links
+- Optional leaderboards for speed solving
+- Progressive difficulty system that adapts to player skill
+
+## Quality Assurance
+- Thoroughly test edge cases in puzzle generation
+- Ensure no puzzles require guesswork (all should be solvable through logical deduction)
+- Implement unit tests for core game logic
+- Test across multiple devices and browsers for consistent experience
+
+Please provide a well-structured, modular codebase with comprehensive documentation that would allow for future enhancements and maintenance.
